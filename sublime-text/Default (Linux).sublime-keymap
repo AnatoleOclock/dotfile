@@ -1,0 +1,25 @@
+[
+    { "keys": ["ctrl+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
+    { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": true } },
+    {
+        "keys": ["alt+shift+&"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    {
+        "keys": ["alt+shift+é"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    }
+]
